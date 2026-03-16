@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Balik — Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-dropdown" id="nav-dropdown">
+            <a href="about.html">About</a>
+            <a href="index.html" class="active">Experience</a>
+        </div>
+    </nav>
+
+    <button id="game-toggle" class="game-toggle">Game: ON</button>
+
+    <main class="container">
+        <header class="hero">
+            <div class="hero-photo">
+                <img src="alex-photo.png" alt="Alex Balik" class="photo">
+            </div>
+            <div class="hero-info">
+                <h1 class="hero-name">Alex Balik</h1>
+                <p class="hero-summary">Engineer, physicist, and software developer with a diverse technical background spanning computational math, data-driven operations research, and optics.</p>
+                <div class="hero-links">
+                    <a href="https://linkedin.com/in/alexanderbalik" target="_blank" class="hero-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&to=alex1balik@gmail.com" target="_blank" class="hero-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <hr class="divider">
+
+        <div id="game-area" class="game-area">
+            <div id="game-instructions" class="game-instructions">
+                <div class="controls-group">
+                    <div class="control">
+                        <div class="key-row">
+                            <span class="key arrow">&#9664;</span>
+                            <span class="key arrow">&#9654;</span>
+                        </div>
+                        <span class="control-label">move</span>
+                    </div>
+                    <div class="control">
+                        <span class="key spacebar">space</span>
+                        <span class="control-label">shoot</span>
+                    </div>
+                </div>
+            </div>
+            <canvas id="game-canvas-triangle"></canvas>
+        </div>
+
+        <h2 class="section-title">Experience</h2>
+
+        <div id="experience-wrapper" class="experience-wrapper">
+            <section id="experience" class="experience timeline">
+                <article class="entry timeline-item">
+                    <span class="timeline-date">2024 – Present</span>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>ARKA Group, LP</h3>
+                        <p class="role">Optical Strategy & Analysis Engineer II</p>
+                        <p class="date">Feb 2024 – Present · 2 yrs 2 mos</p>
+                        <p class="blurb">Writes Python scripts and C# programs to drive automation through optical fabrication software development. Models optical systems and fabrication through computer simulations in Mathematica, drawing on a deep understanding of optical mechanics and image processing. Uses Git with the command line to stage and commit projects to repositories.</p>
+                    </div>
+                </article>
+
+                <article class="entry timeline-item">
+                    <span class="timeline-date">2023 – 2024</span>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Private Tutor</h3>
+                        <p class="role">Self Employed · Freelance</p>
+                        <p class="date">Oct 2023 – Jan 2024 · 4 mos</p>
+                        <p class="blurb">One-on-one tutoring up to Calculus III and college physics.</p>
+                    </div>
+                </article>
+
+                <article class="entry timeline-item">
+                    <span class="timeline-date">2022 – 2023</span>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Whisker Labs</h3>
+                        <p class="role">Technical Operations Engineer</p>
+                        <p class="date">Apr 2022 – Sep 2023 · 1 yr 6 mos</p>
+                        <p class="blurb">Created a research topic on the nature of outlet electrical arcing, used that research to create new processes for time series analysis and troubleshooting, and managed a team of 6 engineers. New processes led to an 82% increase in troubleshooting efficiency and a 6x increase in electrical fire hazard mitigation speed.</p>
+                    </div>
+                </article>
+
+                <article class="entry timeline-item">
+                    <span class="timeline-date">2019 – 2020</span>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Hofstra University</h3>
+                        <p class="role">Part-time · 1 yr 8 mos</p>
+                        <p class="date">Hempstead, New York, United States</p>
+
+                        <div class="sub-role">
+                            <h4>Research Assistant</h4>
+                            <p class="date">May 2019 – Aug 2020 · 1 yr 4 mos</p>
+                            <p class="blurb">Numerically integrated expressions at different energy values to explore a phase transition in the context of general relativity (numerical integration performed in Maple programming language).</p>
+                        </div>
+
+                        <div class="sub-role">
+                            <h4>General Physics and Astronomy Tutor</h4>
+                            <p class="date">Sep 2019 – Jan 2020 · 5 mos</p>
+                            <p class="blurb">Group tutoring for algebra and calculus-based introductory physics and astronomy lectures/labs. Requested for private one-on-one tutoring by multiple students.</p>
+                        </div>
+
+                        <div class="sub-role">
+                            <h4>Teaching Assistant, 3D Calculus</h4>
+                            <p class="date">Jan 2019 – May 2019 · 5 mos</p>
+                            <p class="blurb">Held office hours weekly to answer questions from students taking Calculus III.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </main>
+
+    <script src="summary.js"></script>
+    <script src="game.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>
