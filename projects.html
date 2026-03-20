@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Balik - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-dropdown" id="nav-dropdown">
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="experience.html">Experience</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <div class="hero-photo">
+                <img src="alex-photo.png" alt="Alex Balik" class="photo">
+            </div>
+            <div class="hero-info">
+                <h1 class="hero-name">Alex Balik</h1>
+                <p class="hero-summary">Engineer, physicist, and software developer with a diverse technical background spanning computational math, data-driven operations research, and optics.</p>
+                <div class="hero-links">
+                    <a href="https://linkedin.com/in/alexanderbalik" target="_blank" class="hero-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&to=alex1balik@gmail.com" target="_blank" class="hero-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <hr class="divider">
+
+        <h2 class="section-title">Projects</h2>
+
+        <section class="projects-list">
+            <article class="project-item">
+                <h3>This Website!</h3>
+                <p class="blurb">I created the first draft of this site, which already had a fully functional minigame on the "Experience" page, in 20-30 minutes using Claude terminal. From there, I refined and added new site sections with the Cursor IDE. My focus was to practice constraining the LLM with carefully worded prompts and control agent context.</p>
+            </article>
+
+            <article class="project-item">
+                <h3>Creating a GPT</h3>
+                <p class="blurb">I'm currently working on a small backpropagation program to train my own neural network. Right now, this is a Jupyter notebook with some parameters, derivatives, and a visualization for how the &quot;loss function&quot; works. My goal for this project is to develop a deeper understanding for how LLMs look at training data to predict the next token in a sequence</p>
+            </article>
+
+            <article class="project-item">
+                <h3>The Odin Project Web Development Course</h3>
+                <p class="blurb">Developed working knowledge of HTML, CSS, and Git for committing files to GitHub. Built foundational Unix shell and bash scripting skills on Linux for file and directory operations.</p>
+            </article>
+
+            <article class="project-item">
+                <h3><a href="https://github.com/alexbalik/projects-basket/blob/main/machinelearn_mma.py" target="_blank" rel="noopener noreferrer">Predictive Modeling for UFC Outcomes</a></h3>
+                <p class="role">Python (scikit-learn, pandas)</p>
+                <p class="blurb">Modeled UFC fight outcomes by web scraping statistical data and training a logistic regression model to interpret and predict outcomes. For a given fight, model was trained on data from the previous five fights. Data was in form of "punches landed", "kicks landed", etc.</p>
+            </article>
+
+            <article class="project-item">
+                <h3><a href="https://github.com/alexbalik/projects-basket/blob/main/Hanoigame.py" target="_blank" rel="noopener noreferrer">Tower of Hanoi Desktop Application</a></h3>
+                <p class="role">Python (NumPy)</p>
+                <p class="blurb">This was my first personal programming project, and I used it to learn Python. For this, I created a rudimentary user interface in the Python IDLE editor that displayed a game board with simple keyboard characters. With the user interface as a guide, user could move pieces between three columns under puzzle constraints with moves recorded along the way. The goal was for the user to beat the game and look back at the list of moves to discover the winning algorithm. The next step would've been to make the game solve itself, but I stopped there (I ended up moving on to my next project!)</p>
+            </article>
+        </section>
+    </main>
+
+    <script src="summary.js"></script>
+    <script src="nav.js"></script>
+</body>
+</html>

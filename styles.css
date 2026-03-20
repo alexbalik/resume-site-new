@@ -402,7 +402,45 @@ body {
     margin-bottom: 20px;
 }
 
+/* ---- About subheaders ---- */
+.about-subheader {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
 /* All paragraphs share the same size now, so no special case for the first one */
+
+/* ---- Projects page ---- */
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project-item {
+    background: #22223f;
+    border: 1px solid #34345a;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.project-item h3 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.project-item h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    text-decoration: underline;
+    color: #e07020;
+}
 
 /* ---- Responsive layout ---- */
 @media (max-width: 768px) {
@@ -513,5 +551,14 @@ body {
 
     .about-content p {
         font-size: 0.95rem;
+    }
+
+    .about-subheader {
+        font-size: 0.95rem;
+        margin: 0 0 8px;
+    }
+
+    .project-item {
+        padding: 14px;
     }
 }
