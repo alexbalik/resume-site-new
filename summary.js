@@ -1,5 +1,5 @@
 const SHARED_SUMMARY_TEXT =
-  'Engineer, physicist, and software developer with a diverse technical background spanning computational math, data-driven operations research, and optics.';
+  'Engineer, physicist, and software developer with a diverse background spanning computational math, algorithm development, and people skills.';
 
 document.addEventListener('DOMContentLoaded', () => {
   const summaryEls = document.querySelectorAll('.hero-summary');
